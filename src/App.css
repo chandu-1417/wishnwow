@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Smooth transitions for the loading screen */
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    pointer-events: none;
+  }
+  
+  /* Optional: Prevent scrolling during loading */
+  .no-scroll {
+    overflow: hidden;
+    height: 100vh;
+  }
