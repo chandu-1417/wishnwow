@@ -117,6 +117,7 @@ const PaymentPage = () => {
                             >
                                 {isApplyCoupon ? "REMOVE" : "APPLY"}
                             </button>
+                            <p className='text-sm'>Try <span className='text-red-500'>BOOKNOW</span> to get 1000/- off </p>
                         </div>
                         <div>
                             <BookingSummary />

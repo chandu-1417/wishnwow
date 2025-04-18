@@ -4,9 +4,10 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/wishnwow/",
   plugins: [react(), tailwindcss()],
   server: {
     host: true, // Enables access from local network
     port: 5173, // Change if needed
-  }
+  },
 })

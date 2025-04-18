@@ -54,7 +54,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/wishnwow">
       {isLoading && (
         <div className={`${loadingHidden ? 'opacity-0 pointer-events-none' : ''}`}>
           <LoadingScreen />
